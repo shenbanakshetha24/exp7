@@ -1,4 +1,5 @@
-import sys
 n=int(input())
-for i in range(n):
-print('Hello')
+def hello(a,n):
+  for i in range (0,n):
+    print(a)
+hello("Hello",n) 
